@@ -1,0 +1,26 @@
+{
+  "lsp": {
+    "nil": {
+      "binary": {
+        "path": "nil",
+      },
+    },
+    "jdtls": {
+      "initialization_options": {
+        "settings": {
+          "java": {
+            "autobuild": { "enabled": true },
+            "completion": {
+              "guessMethodArguments": true,
+            },
+          },
+        },
+      },
+    },
+  },
+  "languages": {
+    "Java": {
+      "language_servers": ["jdtls"],
+    },
+  },
+}
