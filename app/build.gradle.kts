@@ -35,7 +35,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.Launcher"
+    mainClass = "org.example.App"
 }
 tasks.named<JavaExec>("run") {
     environment("LD_LIBRARY_PATH", providers.environmentVariable("JFX_LIBS").getOrElse(""))
